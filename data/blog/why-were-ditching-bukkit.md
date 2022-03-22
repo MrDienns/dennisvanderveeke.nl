@@ -6,7 +6,7 @@ draft: false
 summary: An introduction into our journey of removing Bukkit entirely
 ---
 
-Bukkit, bubbed "Bruhkkit" within the team, is a Minecraft server modding API that can be found on practically every
+Bukkit, dubbed "Bruhkkit" within the team, is a Minecraft server modding API that can be found on practically every
 Java Minecraft server. Note that for this blog, we'll also speak of any extension, continuation, or fork of Bukkit such
 as Spigot and Paper. In this blog, I'd like give an introduction into why we're making significant investments to remove
 Bukkit completely, and what some of the concerns are that we currently run into.
@@ -91,8 +91,8 @@ be used as part of beta and onwards.
 Kubus will be a distributed game server software written in Kotlin, integrated into Kubernetes & Agones, supporting
 seamless relocation of players through the use of fallback & replication instances, with protocol termination to
 loosely couple ourselves of Java Minecraft, should we ever wish to support a different client. Storage & other internal
-systems will also be rewritten rewritten to support Command-Query-Responsibility-Segregation (CQRS) and Event Sourcing,
-for added stability, scalability & analytics.
+systems will also be rewritten to support Command-Query-Responsibility-Segregation (CQRS) and Event Sourcing, for added
+stability, scalability & analytics.
 
 If you've got some spare time, and want to help out with what might just become the most technologically advanced Java
 Minecraft server; we could use the hands.
